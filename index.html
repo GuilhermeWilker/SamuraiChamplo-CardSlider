@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samurai Champloo - Slider</title>
+
+    <link
+      rel="shortcut icon"
+      href="src/imagens/pokebola.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/estilos.css" />
+    <link rel="stylesheet" href="src/css/responsivo.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <h1 class="titulo">Samurai Champloo 🗡️</h1>
+    </header>
+
+    <main class="cartoon-slider">
+      <button class="btn-seta btn-voltar" id="btn-voltar">
+        <img src="src/imagens/seta.png" alt="seta voltar" />
+      </button>
+
+      <ul class="lista-personagens">
+        <li class="cartao selecionado fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Mugen</h2>
+            <p class="vida">HP 870</p>
+          </div>
+
+          <div class="container-imagem">
+            <img
+              src="src/imagens/mugen.png"
+              alt="Mugen"
+              class="imagem-cartoon"
+              id="mugen-img"
+            />
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              De uma rapidez fulgurante e uma força, técnica e agilidade fora do
+              comum, percorre o Japão sem saber o porquê. Habituado muito jovem
+              a esclarecer-se muito único, demonstra muita técnica na arte da
+              fuga. Mugen desde muito pequeno entrou em uma gangue de piratas
+              que roubava para viver. Mugen teve que fazer várias escolhas na
+              sua vida, e dentre elas nem todas ele escolheu bem. Vindo de
+              Okinawa segue sua Jornada com seus mais novos companheiros.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo">
+          <div class="informacoes">
+            <h2 class="nome">Fûu</h2>
+            <p class="vida">HP 320</p>
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/fuu.png" alt="Fúu" class="imagem-cartoon" />
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Uma jovem alegre e espirituosa, sua ocupação é uma faz tudo devido
+              sua constante mudança entre empregos de meio período, iniciando a
+              obra trabalhando como uma garçonete. Um alívio cômico recorrente é
+              Fûu temporariamente engordar depois de comer bastante.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo">
+          <div class="informacoes">
+            <h2 class="nome">Jin</h2>
+            <p class="vida">HP 850</p>
+          </div>
+
+          <div class="container-imagem">
+            <img src="src/imagens/jin.png" alt="Jin" class="imagem-cartoon" />
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              O oposto de Mugen, sendo um ronin calmo e austero viajando pelo
+              Japão após forçadamente matar seu mestre, adotando o uso de óculos
+              para se disfarçar. Ele é um mestre em mujushinken, um estilo de
+              kenjutsu criado no começo do período Edo por Harigaya Sekiun.
+            </p>
+          </div>
+        </li>
+      </ul>
+
+      <button class="btn-seta" id="btn-avancar">
+        <img src="src/imagens/seta.png" alt="seta avançar" />
+      </button>
+    </main>
+
+    <script src="src/js/index.js"></script>
+  </body>
+</html>
