@@ -1,16 +1,13 @@
 <h1 align="center">Cards Samurai Champloo</h1>
 <br />
-  
-## Demonstração da aplicação
-<p align="center">
-<img width="510px" src="src/imagens/img-README/01.08.2022_12.38.57_REC.png">
-</p>
 <p align="center">
 <img width="510px" src="src/imagens/img-README/01.08.2022_12.49.21_REC.png"/>
 </p>
+<p align="center">
 Cards interativos, trazendo as principais informações e habilidades de cada personagem.
+</p>
 <br />
-<!-- <a href="https://guilhermewilker.github.io/ToDo-Today/" target="_blank">🔗Clique aqui e use agora mesmo!</a> -->
+<a href="https://guilhermewilker.github.io/SamuraiChamplo-MAPADEV/" target="_blank">🔗Clique aqui e use agora mesmo!</a>
 
 ## Roadmap
 
