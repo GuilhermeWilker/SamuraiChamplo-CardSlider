@@ -1,5 +1,5 @@
 @media (max-width: 620px) {
-    .pokemon-slider {
+    .cartoon-slider {
         padding: 0 15px;
         gap: 10px;
     }
@@ -13,11 +13,11 @@
         align-items: center;
     }
 
-    .lista-pokemons {
+    .lista-persoanegens {
         height: 480px;
     }
 
-    .cartao .imagem-pokemon {
+    .cartao .imagem-cartoon {
         max-height: 230px;
     }
 
