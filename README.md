@@ -6,9 +6,9 @@
 <p align="center">
 Cards interativos, trazendo as principais informações e habilidades de cada personagem.
 </p>
-<br />
+<p align="center">
 <a href="https://guilhermewilker.github.io/SamuraiChamplo-MAPADEV/" target="_blank">🔗Clique aqui e use agora mesmo!</a>
-
+</p>
 ## Roadmap
 
 - 🖥️Criar interatividade com o usuário
